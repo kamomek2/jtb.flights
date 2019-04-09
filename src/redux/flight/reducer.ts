@@ -41,7 +41,7 @@ const INITIAL_STATE: IFlightState = {
 
 export default createReducer(INITIAL_STATE, HANDLERS);
 export const flightPersistConfig: PersistConfig = {
-  key: 'user',
+  key: 'flight',
   whitelist: [],
   storage,
 };
