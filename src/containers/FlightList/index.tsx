@@ -23,7 +23,7 @@ export const FlightList: React.FunctionComponent<IFlightListProps> = ({
       <div>It calls its own async action when you press 'Search' and also has access to the search part of the data storage.</div>
       <div>You can clone it and run as standalone app with search box for development purposes, but search form is listed as dev-dependencies and
       will not be installed when you use jtb.flights as dependency on other projects.</div>
-
+      <div>Api call uses fake promise with <u>1000ms</u> delay</div>
       <div>
         {
           is_loading && <FlightListLoading />
