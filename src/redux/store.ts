@@ -47,6 +47,7 @@ export function configureStore(): { store: Store<any>, persistor: Persistor } {
 
 export interface IStore {
   search: ISearchState,
+  hotel: IHotelState,
   flight: IFlightState,
   router: RouterState,
 }

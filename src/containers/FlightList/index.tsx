@@ -29,7 +29,7 @@ export const FlightList: React.FunctionComponent<IFlightListProps> = ({
           is_loading && <FlightListLoading />
         }
         {
-          !is_loading &&
+          !is_loading && list &&
           list.map(({ title }) => (
             <FlightListItem
               title={title}
