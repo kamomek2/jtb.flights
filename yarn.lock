@@ -4748,9 +4748,9 @@ jsx-ast-utils@^2.0.1:
   dependencies:
     array-includes "^3.0.3"
 
-jtb.hotels@muerwre/jtb.hotels:
+jtb.hotels@^0.0.1:
   version "0.0.1"
-  resolved "https://codeload.github.com/muerwre/jtb.hotels/tar.gz/a7bebdf9c64858e375cfeada83c52d7f79954ff2"
+  resolved "https://registry.yarnpkg.com/jtb.hotels/-/jtb.hotels-0.0.1.tgz#ae7d6229d7dead0d2a9f1a1031438ace9e13a0f5"
   dependencies:
     "@hot-loader/react-dom" "^16.8.1"
     "@types/classnames" "^2.2.7"

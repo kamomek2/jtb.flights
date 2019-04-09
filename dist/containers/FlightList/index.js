@@ -20,8 +20,12 @@ exports.FlightList = ({ query, is_loading, list, }) => (React.createElement("div
         React.createElement("div", null, "It calls its own async action when you press 'Search' and also has access to the search part of the data storage."),
         React.createElement("div", null, "You can clone it and run as standalone app with search box for development purposes, but search form is listed as dev-dependencies and will not be installed when you use jtb.flights as dependency on other projects."),
         React.createElement("div", null,
+            "Api call uses fake promise with ",
+            React.createElement("u", null, "1000ms"),
+            " delay"),
+        React.createElement("div", null,
             is_loading && React.createElement(FlightListLoading_1.FlightListLoading, null),
-            !is_loading &&
+            !is_loading && list &&
                 list.map(({ title }) => (React.createElement(FlightListItem_1.FlightListItem, { title: title, key: title })))))));
 const mapStateToProps = ({ flight, search: { query } }) => (Object.assign({}, flight, { query }));
 exports.default = react_redux_1.connect(mapStateToProps)(exports.FlightList);
