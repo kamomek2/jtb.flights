@@ -4861,7 +4861,7 @@ jtb.flights@muerwre/jtb.flights:
 
 jtb.hotels@muerwre/jtb.hotels:
   version "0.0.3"
-  resolved "https://codeload.github.com/muerwre/jtb.hotels/tar.gz/0e895b1e33568d6dbd61b7a913f4e1074763a1c2"
+  resolved "https://codeload.github.com/muerwre/jtb.hotels/tar.gz/5b428b9b06f84e45382df37f0f1a52d78f66a4db"
   dependencies:
     "@hot-loader/react-dom" "^16.8.1"
     "@types/classnames" "^2.2.7"
@@ -4896,7 +4896,7 @@ jtb.hotels@muerwre/jtb.hotels:
 
 jtb.search@muerwre/jtb.search:
   version "0.0.2"
-  resolved "https://codeload.github.com/muerwre/jtb.search/tar.gz/ef0e3df87d4b78d72907bd13603d42e46a09ee3b"
+  resolved "https://codeload.github.com/muerwre/jtb.search/tar.gz/e0295c67c8020de8c14213919bb7a469c7fc1eb7"
   dependencies:
     "@hot-loader/react-dom" "^16.8.1"
     "@types/classnames" "^2.2.7"
@@ -4907,7 +4907,6 @@ jtb.search@muerwre/jtb.search:
     classnames "^2.2.6"
     clean-webpack-plugin "^0.1.9"
     connected-react-router "^6.3.2"
-    copyfiles "^2.1.0"
     date-fns "^2.0.0-alpha.27"
     history "^4.7.2"
     http-errors "~1.6.2"
