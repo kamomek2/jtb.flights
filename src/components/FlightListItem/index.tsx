@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IFlightItem } from "../../redux/flight/reducer";
+import { IFlightItem } from "index.d.ts";
 
 const style = require('./style.scss');
 

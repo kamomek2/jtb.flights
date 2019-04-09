@@ -1,18 +1,9 @@
 import { createReducer } from 'reduxsauce';
-import * as ACTIONS from "./actions";
-import { FLIGHT_ACTIONS } from "./constants";
+import * as ACTIONS from "$redux/flight/actions";
+import { FLIGHT_ACTIONS } from "$redux/flight/constants";
 import storage from "redux-persist/lib/storage";
 import { PersistConfig } from "redux-persist/es/types";
-
-export interface IFlightItem {
-  title: string,
-}
-
-export type IFlightState = Readonly<{
-  // key: string
-  is_loading: boolean,
-  list: IFlightItem[],
-}>;
+import { IFlightItem, IFlightState } from "index.d.ts";
 
 type UnsafeReturnType<T> = T extends (...args: any[]) => infer R ? R : any;
 interface ActionHandler<T> {

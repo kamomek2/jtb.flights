@@ -1,7 +1,7 @@
 import { call, put, takeLatest } from 'redux-saga/effects';
-import { fakeFetchFlights } from "../../utils/fakeApi";
-import { flightSetList, flightSetLoading, searchDispatchQueryAction } from "./actions";
-import { GLOBAL_ACTIONS } from "./constants";
+import { fakeFetchFlights } from "$utils/fakeApi";
+import { flightSetList, flightSetLoading, searchDispatchQueryAction } from "$redux/flight/actions";
+import { GLOBAL_ACTIONS } from "$redux/flight/constants";
 import { SagaIterator } from "redux-saga";
 
 function* performSearchSaga(

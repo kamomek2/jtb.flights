@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { IFlightState } from "../../redux/flight/reducer";
-import { FlightListLoading } from "../../components/FlightListLoading";
-import { FlightListItem } from "../../components/FlightListItem";
+import { IFlightState } from "index.d.ts";
+import { FlightListLoading } from "$components/FlightListLoading";
+import { FlightListItem } from "$components/FlightListItem";
 
 const style = require('./style.scss');
 

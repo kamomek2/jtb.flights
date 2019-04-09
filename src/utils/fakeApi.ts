@@ -1,5 +1,5 @@
-import { IFlightItem } from "../redux/flight/reducer";
-import { searchDispatchQueryAction } from "..";
+import { IFlightItem } from "index.d.ts";
+import { searchDispatchQueryAction } from "$redux/flight/actions";
 
 export const FAKE_FLIGHT_LIST: IFlightItem[] = [
   { title: 'First flight from fake api'},
