@@ -15,7 +15,7 @@ const INITIAL_STATE = {
 };
 exports.default = reduxsauce_1.createReducer(INITIAL_STATE, HANDLERS);
 exports.flightPersistConfig = {
-    key: 'user',
+    key: 'flight',
     whitelist: [],
     storage: storage_1.default,
 };
