@@ -12,5 +12,7 @@ declare class FlightList extends React.PureComponent<{}, {}> {}
 declare const flightSetLoading: typeof flightActions.flightSetLoading;
 declare const flightSetList: typeof flightActions.flightSetList;
 
+declare interface IFlightState {}
+
 declare module 'jtb.flights' {}
 
