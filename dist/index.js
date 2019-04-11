@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var reducer_1 = require("./redux/flight/reducer");
 exports.flightReducer = reducer_1.default;
 exports.flightPersistConfig = reducer_1.flightPersistConfig;
+exports.FLIGHT_INITIAL_STATE = reducer_1.INITIAL_STATE;
 var sagas_1 = require("./redux/flight/sagas");
 exports.flightSaga = sagas_1.default;
 var constants_1 = require("./redux/flight/constants");
