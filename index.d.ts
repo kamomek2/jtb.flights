@@ -14,3 +14,5 @@ declare type IFlightState = Types.IFlightState;
 
 declare module 'jtb.flights' {}
 
+declare const FLIGHT_INITIAL_STATE: IFlightState;
+
