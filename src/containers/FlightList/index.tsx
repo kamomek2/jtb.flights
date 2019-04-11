@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { IFlightState } from "index.d.ts";
+import { IFlightState } from "$types";
 import { FlightListLoading } from "$components/FlightListLoading";
 import { FlightListItem } from "$components/FlightListItem";
 

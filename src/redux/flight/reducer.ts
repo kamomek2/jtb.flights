@@ -3,7 +3,7 @@ import * as ACTIONS from "$redux/flight/actions";
 import { FLIGHT_ACTIONS } from "$redux/flight/constants";
 import storage from "redux-persist/lib/storage";
 import { PersistConfig } from "redux-persist/es/types";
-import { IFlightItem, IFlightState } from "index.d.ts";
+import { IFlightItem, IFlightState } from "$types";
 
 type UnsafeReturnType<T> = T extends (...args: any[]) => infer R ? R : any;
 interface ActionHandler<T> {
@@ -25,7 +25,7 @@ const HANDLERS = {
   [FLIGHT_ACTIONS.SET_LIST]: setList,
 };
 
-const INITIAL_STATE: IFlightState = {
+export const INITIAL_STATE: IFlightState = {
   is_loading: false,
   list: [],
 };

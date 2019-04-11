@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IFlightItem } from "index.d.ts";
+import { IFlightItem } from "$types";
 
 const style = require('./style.scss');
 

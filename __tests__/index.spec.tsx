@@ -1,17 +1,16 @@
-/*
 import * as React from 'react';
 import { shallow } from 'enzyme';
 
-import { HotelList } from '../src/containers/HotelList';
-import { HotelListLoading } from '../src/components/HotelListLoading';
-import { HotelListItem } from '../src/components/HotelListItem';
+import { FlightList } from '../src/containers/FlightList';
+import { FlightListLoading } from '../src/components/FlightListLoading';
+import { FlightListItem } from '../src/components/FlightListItem';
 
-import hotelReducer, { INITIAL_STATE } from '../src/redux/hotel/reducer';
+import hotelReducer, { INITIAL_STATE } from '../src/redux/flight/reducer';
 
-describe('[Hotels]', () => {
+describe('[Flights]', () => {
   describe('[Mount] Checking components', () => {
-    it('[HotelList] is rendering loader', () => {
-      const wrapper = shallow(<HotelList
+    it('[FlightList] is rendering loader', () => {
+      const wrapper = shallow(<FlightList
         query="string"
         list={[
           { title: '1' },
@@ -20,12 +19,12 @@ describe('[Hotels]', () => {
         is_loading
       />);
 
-      expect(wrapper.find(HotelListLoading).length).toBe(1);
-      expect(wrapper.find(HotelListItem).length).toBe(0);
+      expect(wrapper.find(FlightListLoading).length).toBe(1);
+      expect(wrapper.find(FlightListItem).length).toBe(0);
     });
 
-    it('[HotelList] is rendering list', () => {
-      const wrapper = shallow(<HotelList
+    it('[FlightList] is rendering list', () => {
+      const wrapper = shallow(<FlightList
         query="string"
         list={[
           { title: '1' },
@@ -34,8 +33,8 @@ describe('[Hotels]', () => {
         is_loading={false}
       />);
 
-      expect(wrapper.find(HotelListLoading).length).toBe(0);
-      expect(wrapper.find(HotelListItem).length).toBe(2);
+      expect(wrapper.find(FlightListLoading).length).toBe(0);
+      expect(wrapper.find(FlightListItem).length).toBe(2);
     });
   });
 
@@ -46,4 +45,3 @@ describe('[Hotels]', () => {
     });
   });
 });
-*/

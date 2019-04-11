@@ -8,7 +8,7 @@ import { Persistor } from "redux-persist/es/types";
 import { routerMiddleware } from 'connected-react-router'
 
 import flightReducer, { flightPersistConfig } from './flight/reducer';
-import { IFlightState } from 'index';
+import { IFlightState } from '$types';
 import flightSaga from './flight/sagas';
 
 import { searchReducer, searchSaga, searchPersistConfig, ISearchState } from 'jtb.search';

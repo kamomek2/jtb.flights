@@ -1,4 +1,4 @@
-import { IFlightItem } from "index.d.ts";
+import { IFlightItem } from "$types";
 import { searchDispatchQueryAction } from "$redux/flight/actions";
 
 export const FAKE_FLIGHT_LIST: IFlightItem[] = [

@@ -1,5 +1,5 @@
 import { FLIGHT_ACTIONS } from "./constants";
-import { IFlightState } from "index.d.ts";
+import { IFlightState } from "$types";
 
 export const flightSetLoading = (is_loading: IFlightState['is_loading']) => ({
   type: FLIGHT_ACTIONS.SET_LOADING, is_loading,

@@ -109,7 +109,7 @@
     "$config/*": "./config/*",
     "$styles/*": "src/styles/*",
     "$redux/*": "src/redux/*",
-    "$types": "src/types",
-    "$utils/*": "src/utils/*"
+    "$utils/*": "src/utils/*",
+    "$types": "src/types"
   }
 }
